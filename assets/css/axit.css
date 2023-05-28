@@ -380,7 +380,7 @@ header .container {
 
 .cards {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
@@ -473,7 +473,7 @@ header .container {
 
 .discreption-customer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 40px;
@@ -618,4 +618,22 @@ footer P {
     margin-inline-end: 50px;
   }
   
+  #socialMedia .section-content, .social-links-list {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-inline-end: 50px;
+  }
+ #sectionTabs .tabs-btns, .tabs-content, .tabs-content-content, .tabs-content-meadia {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-inline-end: 50px;
+}
+#sectionTabs .tabs-btns {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 }
