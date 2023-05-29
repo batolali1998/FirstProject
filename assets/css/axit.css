@@ -698,7 +698,10 @@ nav {
     text-align: center;
     z-index: 4;
   }
-
+  .nav-menu LI {
+    margin-bottom: 10PX;
+  }
+  
   .bars .nav-menu {
     display: none;
     width: 50%;
