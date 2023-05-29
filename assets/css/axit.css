@@ -101,8 +101,12 @@ header .container {
 
 .header-content-footer button:hover {
   background-image: url(../imgs/imgheader.jpg);
-
 }
+
+.header-content-footer button:focus {
+  background-image: url(../imgs/imgheader.jpg);
+}
+
 
 .header-form-container {
   padding: 0 5%;
@@ -267,6 +271,13 @@ header .container {
 }
 
 .tabs-content-content button:hover {
+  background-color: #fff;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  box-shadow: 0px 5px 10px 4px var(--seconder-color) !important;
+}
+
+.tabs-content-content button:focus {
   background-color: #fff;
   color: var(--main-color);
   border: 1px solid var(--main-color);
