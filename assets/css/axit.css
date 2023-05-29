@@ -287,7 +287,7 @@ header .container {
 
 .tabs-btns button:focus {
   background-color: var(--main-color);
-  box-shadow: 0px 10px 20px 8px var(--seconder-color) !important;
+   box-shadow: 0px 10px 20px 8px var(--seconder-color) !important;
   color: var(--seconder-color);
   border-color: var(--seconder-color);
 }
@@ -728,7 +728,7 @@ nav {
 
 #sectionTabs .tabs-btns button {
   padding: 20px;
-  margin-inline: 25px;
+  margin-inline: 20px;
   border-radius: 50%;
 }
 
