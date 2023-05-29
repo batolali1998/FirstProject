@@ -75,7 +75,8 @@ header .container {
   color: #fff;
 }
 
-.header-content-header {
+
+.header-content-header img {
   margin-bottom: 30px;
 }
 
@@ -87,7 +88,7 @@ header .container {
   background-color: #fff;
   width: 50px;
   height: 2px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .header-content-footer button {
@@ -97,7 +98,10 @@ header .container {
   background-color: transparent;
   margin-top: 50px;
 }
+.header-content-footer button:hover {
+  background-image: url(../imgs/imgheader.jpg);
 
+}
 .header-form-container {
   padding: 0 5%;
 }
@@ -141,6 +145,10 @@ header .container {
   border-color: transparent;
   background-color: var(--main-color);
   color: #fff;
+}
+.header-form button:hover {
+  background-color: #8a8a8a;
+  color: var(--seconder-color);
 }
 
 .input-group input {
@@ -252,12 +260,14 @@ header .container {
   border: none;
   padding: 12px 22px;
   font-size: 15px;
+  box-shadow: 0px 5px 10px 4px #8a8a8a !important;
 }
 
 .tabs-content-content button:hover {
   background-color: #fff;
   color: var(--main-color);
   border: 1px solid var(--main-color);
+  box-shadow: 0px 5px 10px 4px var(--seconder-color)!important;
 }
 
 .tabs-btns button {
@@ -265,10 +275,14 @@ header .container {
   border: 1px solid #fff;
   color: #fff;
   background-color: #333333;
-}
+  box-shadow: 0px 10px 20px 8px #8a8a8a !important;
+ }
 
 .tabs-btns button:hover {
   background-color: var(--main-color);
+  box-shadow: 0px 10px 20px 8px var(--seconder-color) !important;
+  color: var(--seconder-color);
+  border-color: var(--seconder-color);
 }
 
 .tabs-btns button:focus {
@@ -351,11 +365,13 @@ header .container {
   line-height: 2;
   text-align: center;
   transition: 0.3s;
+  box-shadow: 0px 5px 10px 4px #8a8a8a !important;
 }
 
 .sub-list-icon i:hover {
   background-color: var(--main-color);
   color: white !important;
+  box-shadow: 0px 5px 10px 4px var(--seconder-color) !important;
 }
 .sub-list-discreption {
   width: 80%;
@@ -389,14 +405,29 @@ header .container {
 
 .card-one {
   width: 30%;
+  box-shadow: 0px 10px 20px 8px #00000070 !important;
+}
+
+.card-one:hover {
+  box-shadow: 0px 10px 20px 8px var(--main-color) !important;
 }
 
 .card-two {
   width: 30%;
+  box-shadow: 0px 10px 20px 8px #00000070 !important;
+}
+
+.card-two:hover {
+box-shadow: 0px 10px 20px 8px var(--main-color) !important;
 }
 
 .card-three {
   width: 30%;
+  box-shadow: 0px 10px 20px 8px #00000070 !important;
+}
+
+.card-three:hover {
+  box-shadow: 0px 10px 20px 8px var(--main-color) !important;
 }
 
 .header-card:hover {
@@ -504,14 +535,29 @@ header .container {
 
 .customer-one {
   width: 30%;
+  box-shadow: 0px 10px 20px 8px var(--seconder-color) !important;
+}
+
+.customer-one:hover {
+  box-shadow: 0px 10px 20px 8px var(--main-color) !important;
 }
 
 .customer-two {
   width: 30%;
+  box-shadow: 0px 10px 20px 8px var(--seconder-color) !important;
+}
+
+.customer-two:hover {
+  box-shadow: 0px 10px 20px 8px var(--main-color) !important;
 }
 
 .customer-three {
   width: 30%;
+  box-shadow: 0px 10px 20px 8px var(--seconder-color) !important;
+}
+
+.customer-three:hover {
+  box-shadow: 0px 10px 20px 8px var(--main-color) !important;
 }
 
 .customer-header {
