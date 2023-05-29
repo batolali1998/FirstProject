@@ -24,9 +24,24 @@ nav .container {
   margin-inline-start: 30px;
 }
 
-.nav-menu li:hover a {
-  color: var(--main-color);
-  transform: translateX(30px);
+nav a {
+  position: relative;
+}
+
+nav a::after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  position: absolute;
+  left: 50%;
+  bottom: -7px; 
+}
+
+.nav-menu li:hover a::after {
+  width: 60px;
+  background-color: var(--main-color);
+  transform: translateX(-50%);
+  transition: 0.3s;
 }
 
 nav .nav-menu-mobile-btn {
