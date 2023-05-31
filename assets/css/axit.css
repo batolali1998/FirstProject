@@ -694,13 +694,10 @@ nav {
 
   nav {
     position: relative;
-    padding-inline: 50px;
-
   }
 
   .nav-menu-mobile-btn {
     display: block !important;
-    width: 100%;
   }
 
   .nav-menu {
@@ -713,11 +710,12 @@ nav {
     text-align: center;
     z-index: 4;
   }
+
   .nav-menu li {
     margin-bottom: 10PX;
   }
   
-  .bars .nav-menu {
+  .bars .nav-menu {  
     display: none;
     width: 50%;
   }
@@ -725,7 +723,7 @@ nav {
   .bars:hover .nav-menu {
     display: block !important;
   }
-
+  
   header .header-content,
   .header-form {
     width: 100%;

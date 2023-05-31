@@ -37,16 +37,18 @@ a {
 .container {
     padding: 0% 5%;
 }
+
 .section-title {
     position: relative;
     margin-bottom: 30px;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
+
 .section-descreption {
     margin: 40px 0;
     color: #8a8a8a;
 }
+
 .section-title h2::after {
     content: '';
     width: 50px;
@@ -56,9 +58,11 @@ a {
     left: 50%;
     bottom: -50%; 
   }
+
   .section-title h2::after {
     transform: translate(-50%);
   }
+
  .section-title:hover h2::after{
     width: 200px;
     transition: 0.3s;  
@@ -69,8 +73,8 @@ a {
         width: 100%;
         margin-bottom: 30px;
         text-align: center;
-    padding: 0}
-
+        padding: 0;
+}
     }
 
 /*global_style_end*/
