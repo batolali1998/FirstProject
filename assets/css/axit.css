@@ -47,7 +47,6 @@ nav a::after {
 nav .nav-menu-mobile-btn {
   display: none;
 }
-
 /* end nav  */
 
 /* start header */
@@ -180,7 +179,6 @@ header .container {
   border-bottom: 2px solid #8a8a8a;
   border-color: #8a8a8a;
 }
-
 /* end header */
 
 /* start section socialMedia */
@@ -223,7 +221,6 @@ header .container {
 .social-links-list a:hover i {
   color: var(--main-color);
 }
-
 /* end section socialMedia */
 
 /* start section sectionTabs */
@@ -318,7 +315,6 @@ header .container {
   color: var(--seconder-color);
   border-color: var(--seconder-color);
 }
-
 /* end section sectionTabs */
 
 /* start section subList */
@@ -408,7 +404,6 @@ header .container {
   width: 80%;
   margin-inline-end: 40px;
 }
-
 /*end section subList*/
 
 /*start section pricing*/
@@ -541,8 +536,6 @@ header .container {
   border-bottom: 1px solid #fff;
   color: #fff;
 }
-
-
 /*end section pricing*/
 
 /*start section customer*/
@@ -644,7 +637,6 @@ header .container {
 .information-customer p {
   color: #8a8a8a;
 }
-
 /*end section customer*/
 
 /*start footer*/
@@ -684,8 +676,6 @@ nav {
   padding-inline: 50px;
   position: relative;
 }
-
-
 /*end footer*/
 
 @media only screen and (max-width: 768px) {
