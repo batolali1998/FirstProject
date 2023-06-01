@@ -6,7 +6,7 @@
 }
 
 :root {
-    --main-color: #ff8b38;
+    --main-color: #ff9b51;
     --seconder-color: #000;
 }
 
@@ -30,23 +30,36 @@
 
 a {
     text-decoration: none;
-    color: #f7f7f7;
+    color: #c1c1c1;
     display: block;
+    transition: 0.3s;
 }
 
+ul li {
+    transition: 0.3s;
+}
+
+button {
+    transition: 0.3s;
+}
+
+p {
+    line-height: 1.5;
+    color: #95969a;
+    }
+    
 .container {
-    padding: 0% 5%;
+    padding: 0% 10%;
 }
 
 .section-title {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 20px;   
 }
 
 .section-descreption {
-    margin: 40px 0;
-    color: #8a8a8a;
+    margin: 20px 0;
 }
 
 .section-title h2::after {
@@ -57,21 +70,17 @@ a {
     position: absolute;
     left: 50%;
     bottom: -50%; 
-  }
-
-  .section-title h2::after {
     transform: translate(-50%);
   }
 
  .section-title:hover h2::after{
     width: 200px;
-    transition: 0.3s;  
+    transition: 1s;  
  }
  @media only screen and (max-width: 768px) {
-  
+
     .container {
         width: 100%;
-        margin-bottom: 30px;
         text-align: center;
         padding: 0;
 }
