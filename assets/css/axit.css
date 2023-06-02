@@ -1030,6 +1030,11 @@ header .container {
 }
 
 @media only screen and (max-width: 768px) {
+  #stylish {
+    background-size: 300%;
+    padding-inline: 10px;
+  }
+
   #stylish .stylish-content {
     width: 100%;
     text-align: center;
